@@ -1,0 +1,11 @@
+%COPYRIGHT_LINE%
+
+#pragma once
+
+#include "%UNPREFIXED_CLASS_NAME%.generated.h"
+
+UENUM(BlueprintType)
+enum class E%UNPREFIXED_CLASS_NAME% : uint8
+{
+	Max UMETA(Hidden)
+};
